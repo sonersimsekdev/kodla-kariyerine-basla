@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap');
+
+:root {
+   /* --orange :rgb(255, 83, 53);*/
+    --font: 'Inter', sans-serif;
+   
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url('https://images.wallpaperscraft.com/image/single/nebula_stars_space_191697_4567x3404.jpg');
+    background-position: center;
+    background-repeat:  no-repeat;
+    background-size: cover;
+    font-family: var(--font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    
+}
+.container {
+    margin: 20px;
+    min-width: 500px;
+}
+
+.card {
+    border:none;
+}
+
+.glass-effect {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 2px solid transparent;
+    border-radius:10px;
+}
+
+
+.glass-effect-green {
+    background-color: rgba(92, 255, 92, 0.1);
+    backdrop-filter: blur(10px);
+    border: 2px solid transparent;
+    border-radius:10px;
+}
+
+.glass-effect-red {
+    background-color: rgba(255, 71, 71, 0.1);
+    backdrop-filter: blur(10px);
+    border: 2px solid transparent;
+    border-radius:10px;
+}
+
+input {
+    font-size: 25px;
+}
+
+
+/*
+.glass-effect:hover {
+    background-color: rgba(255, 0, 76, 0.1);
+    backdrop-filter: blur(10px);
+    border: 2px solid transparent;
+    border-radius:10px;
+}*/
+
+.btn {
+    font-family: var(--font);
+    font-weight: 500;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 5px 15px;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+}
+
+.card{
+    background-color: transparent;
+}
+
+
+.form-control, .form-control:hover  , .form-control:hover:focus   {
+   
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    
+}
+.form-control::placeholder {
+    
+    color: white;
+}
+
+
+
+.form-control:hover:not(:focus) {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+  }
+  
+.form-control:focus:not(:hover) {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+  }
+
+ 
+.list-group > li {
+    margin: 2px  5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-weight: 300;
+}
+
+.list-group > li  > a > i{
+    color: rgba(0, 0, 0, 0.5);
+    padding: 0 10px;
+
+}

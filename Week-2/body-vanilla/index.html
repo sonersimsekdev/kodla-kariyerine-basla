@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--Fontawesome CDN-->
+    <script src="https://kit.fontawesome.com/86dc5d5814.js" crossorigin="anonymous"></script>
+
+     <!--Custom CSS-->
+     <link rel="stylesheet" href="style.css">
+
+    <title>VKI</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+        
+        <div class="row justify-content-center align-items-center p-5 text-center font-monospace " id="sonuc" >
+            <h1>Vücut Kitle Endeksi Hesaplama Aracı</h1>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 p-3">
+                <form >
+                    <div class="mb-3">
+                      <label for="kilo" class="form-label fw-bold ">Vücut Ağırlığı (kg)</label>
+                      <input type="number" class="form-control rounded-pill border border-1 border-dark text-center"  id="kiloDegeri" min="1" max="999" required>
+                      <div id="kiloHelper" class="form-text text-white">Örneğin: 50</div>
+                    </div>
+                    <div class="mb-3 " >
+                        <label for="boy" class="form-label fw-bold">Boy Uzunluğu (cm)</label>
+                        <input type="number" class="form-control rounded-pill border border-1 border-dark text-center" id="boyDegeri"  min="1" max="999" required>
+                        <div id="boyHelper" class="form-text text-white">Örneğin: 170</div>
+                    </div>
+                    <button type="button" id="hesaplamab" onclick="vkiHesaplama()" class="btn btn-outline-dark">Hesapla</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="row justify-content-center align-items-center  text-center text-secondary text-white" >
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6" id="sonuc">
+               <h2 id="sonucBaslik"></h2>
+               <p id="sonucIcerik"></p>
+                </div>
+            
+        </div>
+        
+       
+        
+       
+    </div>   
+      
+    <!---->
+
+   
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!--App JS-->
+    <script src="app.js"></script>
+
+    
+  </body>
+</html>
