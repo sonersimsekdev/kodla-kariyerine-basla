@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+$fontf: "Roboto", sans-serif;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  
+}
+
+html,
+body {
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $fontf;
+  color: white;
+  background: #de6161; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #2657eb,
+    #de6161
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #2657eb,
+    #de6161
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+//colors
+
+.container {
+  border: 5px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+  height: 50vh;
+  width: 40vh;
+  display: grid;
+  font-family: $fontf;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 1vh;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.09);
+  font-size: 2rem;
+  box-shadow: 0px 0px 21px 8px rgba(255, 255, 255, 0.2);
+}
+
+.btn {
+  color: white;
+  font-size: 2rem;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  transition-duration: 0.2s;
+  font-family: $fontf;
+
+}
+.btn:hover {
+ 
+  color: white;
+  font-size: 2rem;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+
+  cursor: pointer;
+}
+
+.btn:active {
+
+  color: white;
+  font-size: 2rem;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.top {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 5%;
+  align-items: center;
+}
+
+.c,
+.o {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+
