@@ -48,8 +48,8 @@ function showErrorFunction(error) {
     console.log(error + " hata oldu")
     showingUl.innerHTML += `
             <td></td>
-            <td>bulunamadi</td> 
-            <td>bulunamadi</td>   
-            <td>bulunamadi</td> 
-            <td>bulunamadi</td>`
+            <td>not found</td> 
+            <td>not found</td>  
+            <td>not found</td>
+            <td>not found</td> `
 }
