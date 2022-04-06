@@ -5,7 +5,7 @@
 
 >  ![#Week 1 project](https://raw.githubusercontent.com/sonersimsekdev/kodla-kariyerine-basla/main/Bootcamp/Week-1/demo.PNG)
 >
->[Live Demo Fetch API](https://sonersimsekdev.github.io/kodla-kariyerine-basla/Bootcamps/Week-1/)
+>[Live Demo Fetch API](https://sonersimsekdev.github.io/kodla-kariyerine-basla/Bootcamp/Week-1/)
 
 
 
