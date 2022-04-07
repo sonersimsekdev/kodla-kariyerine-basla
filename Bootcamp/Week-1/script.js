@@ -1,25 +1,8 @@
-//promise pratice
-/*
-let p = new Promise((resolve, reject) => {
-    let a = 1 + 2
-    if (a == 2)
-        resolve('Success')
-    else
-        reject('Failed')
-})
-
-p.then((message => {
-    console.log(`This is in the then ${message}`)
-})).catch((message) => {
-    console.log(`This is in the then ${message}`)
-})*/
-
-//console.log(fetch('https://jsonplaceholder.typicode.com/users'))
+const spinner = document.querySelector("#spinner");
 
 
-
-
-fetch('https://randomuser.me/api/?results=10')
+spinner.removeAttribute('hidden');
+fetch('https://randomuser.me/api/?results=25')
     .then(response => response.json())
     .then(data => showFunction(data.results))
     .catch(error => showErrorFunction(error))
@@ -27,9 +10,8 @@ fetch('https://randomuser.me/api/?results=10')
     let showingUl = document.querySelector('#dataList')
 function showFunction(data) {
     console.log(data)
-   
     data.forEach(element => {
-        //const nameElement = document.createElement('td')
+        
         if (element.dob.age >= 55) {
             showingUl.innerHTML += `
             <td></td>
@@ -37,6 +19,7 @@ function showFunction(data) {
             <td>${element.name.last}</td>   
             <td>${element.dob.age}</td> 
             <td>${element.nat}</td>`
+            spinner.setAttribute('hidden',' ');
         } else
             console.log("yok")
 
