@@ -3,7 +3,7 @@
 
 #In bootcamp projects
 
->  ![#Week 1 project](https://raw.githubusercontent.com/sonersimsekdev/kodla-kariyerine-basla/main/Bootcamp/Week-1/demo.PNG)
+>  ![#Week 1 project](https://raw.githubusercontent.com/sonersimsekdev/kodla-kariyerine-basla/main/Bootcamp/Week-1/demo2.PNG)
 >
 >[Live Demo Fetch](https://sonersimsekdev.github.io/kodla-kariyerine-basla/Bootcamp/Week-1/)
 
