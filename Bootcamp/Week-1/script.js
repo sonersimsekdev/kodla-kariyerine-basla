@@ -18,6 +18,7 @@ function showFunction(data) {
     //the method are showing data to html
     console.log(data) //a little bit control
     data.forEach(element => { //this block every time write to data on html tags
+        debugger
         if (element.dob.age >= 55) { //we see greater than 55 years old people
             showingUl.innerHTML += `
             <td></td>
